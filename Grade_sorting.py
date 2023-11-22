@@ -1,11 +1,14 @@
-raw = [10, 5, 8, 9, 15, 11, 13, 8, 2, 3]
+def printFunc():
+    # importation = int(input("输入成绩"))
 
-sort = sorted(raw)
+    raw = [10, 5, 8, 9, 15, 11, 13, 8, 2, 3]
 
-del sort[0], sort[-1]
+    sort = sorted(raw)
 
-summation = sum(sort)/8
+    del sort[0], sort[-1]
 
-print(sort)
+    summation = sum(sort) / len(sort)
 
-print(summation)
+    print(sort)
+
+    print(summation)
