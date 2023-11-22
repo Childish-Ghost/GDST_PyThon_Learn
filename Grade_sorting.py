@@ -5,5 +5,7 @@ sort = sorted(raw)
 del sort[0], sort[-1]
 
 summation = sum(sort)/8
+
 print(sort)
+
 print(summation)
