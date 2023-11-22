@@ -4,7 +4,7 @@ sort = sorted(raw)
 
 del sort[0], sort[-1]
 
-summation = sum(sort)/8
+summation = sum(sort)/len(sort)
 
 print(sort)
 
