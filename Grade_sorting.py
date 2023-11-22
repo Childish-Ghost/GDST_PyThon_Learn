@@ -1,4 +1,4 @@
-def printFunc():
+def Grade_sorting():
     # importation = int(input("输入成绩"))
 
     raw = [10, 5, 8, 9, 15, 11, 13, 8, 2, 3]
