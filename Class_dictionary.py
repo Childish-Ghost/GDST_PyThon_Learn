@@ -7,5 +7,18 @@ new_fruit = {'火龙果': '33', '车厘子': '45'}
 
 print(fruit)
 
-fruit['苹果']='50'
-print("苹果修改",fruit)
+fruit['苹果'] = '50'
+print("苹果修改", fruit)
+
+new_fruit.pop('车厘子')
+print("车厘子修改", fruit)
+
+fruit_outcome = fruit and new_fruit
+
+print(fruit_outcome)
+nn = input("输入你需要查询的水果名称")
+
+for fruit_outcome in nn:
+    print(fruit_outcome[str])
+else:
+    print("没有对应存库")
