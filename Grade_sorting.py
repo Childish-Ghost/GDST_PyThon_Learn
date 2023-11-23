@@ -1,14 +1,15 @@
-def Grade_sorting():
-    # importation = int(input("输入成绩"))
 
-    raw = [10, 5, 8, 9, 15, 11, 13, 8, 2, 3]
+# importation = int(input("输入成绩"))
 
-    sort = sorted(raw)
+raw = [10, 5, 8, 9, 15, 11, 13, 8, 2, 3]
 
-    del sort[0], sort[-1]
+sort = sorted(raw)  # sorted 顺序排序 小→大 ；括号内是数组，元组
 
-    summation = sum(sort) / len(sort)
+del sort[0], sort[-1]
 
-    print(sort)
+summation = sum(sort) / len(sort)
 
-    print(summation)
+print(sort)
+
+print(summation)
+print("2023/11/16")

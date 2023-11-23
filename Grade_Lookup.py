@@ -1,6 +1,7 @@
-class Grade_Lookup:
-    Grade_Lookeup = ("语文：78分", "数学：89分", "外语：89分", "政治：60分", "实践：69分")
+Grade_Lookeup = ("语文：78分", "数学：89分", "外语：89分", "政治：60分", "实践：69分")
 
-    print(Grade_Lookeup.index("实践：69分"))
+print(Grade_Lookeup.index("实践：69分"))
 
-    print(Grade_Lookeup[4])
+print(Grade_Lookeup[4])
+
+print("2023/11/16")
