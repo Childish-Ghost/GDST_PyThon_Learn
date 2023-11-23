@@ -34,7 +34,7 @@ else:
             Class_or_class()
         else:
             if num == 4:
-            # Class_gather()
+                print("")
             else:
                 if num == 5:
                     Class_dictionary()
