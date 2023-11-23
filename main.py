@@ -1,11 +1,7 @@
 # from Grade_sorting import Grade_sorting
 # from Grade_Lookup import Grade_Lookup
-import os
-
 # print("1: 成绩排序", "2: 成绩查找")
 # num = int(input("请输入排序数值选择："))
-
-
 
 
 import os
@@ -20,25 +16,9 @@ for parent, dirnames, filenames in os.walk('.'):
     filenames[:] = [f for f in filenames if f.endswith(".py")]
     for filename in filenames:
         # 输出找到的文件目录
-        All_files = os.path.join(parent,filename)
+        All_files = os.path.join(parent, filename)
 
         print(All_files)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 '''
 if num == 1:
