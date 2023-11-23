@@ -17,7 +17,6 @@ for parent, dirnames, filenames in os.walk('.'):
     for filename in filenames:
         # 输出找到的文件目录
         All_files = os.path.join(parent, filename)
-
         print(All_files)
 
 '''
