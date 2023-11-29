@@ -10,4 +10,6 @@ def Class_or_class():
 
     print("没有选C语言的同学", C_Course - Python_Course)
 
-    print("选课的同学一共有", len(Python_Course) + len(C_Course))
+    b = Python_Course.union(C_Course)
+
+    print("选课的同学一共有", len(b))
