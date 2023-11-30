@@ -9,3 +9,4 @@ elif 60 <= cj < 70:
     print("成绩等级为D")
 elif cj < 60:
     print("成绩等级为E")
+    print("不及格请重修")
