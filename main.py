@@ -2,7 +2,7 @@ from Grade_sorting import Grade_sorting
 from Grade_Lookup import Grade_Lookup
 from Class_or_class import Class_or_class
 from Class_dictionary import Class_dictionary
-# from Class_gather import Class_gather
+# from chap4_1 import chap4_1
 
 print("1: Grade_sorting", "Grade_Lookup", "3：Class_or_class", "4：Class_dictionary", "5：")
 num = int(input("请输入排序数值选择："))
@@ -37,6 +37,6 @@ else:
                 Class_dictionary()
             else:
                 if num == 5:
-                    print("")
+                    chap4_1()
                 else:
                     print("无内容")
