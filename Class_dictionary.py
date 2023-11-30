@@ -15,7 +15,7 @@ def Class_dictionary():
     new_fruit.pop('车厘子')
     print("车厘子修改", new_fruit)
 
-    fruit3=(fruit|new_fruit
+    fruit3=(fruit|new_fruit)
 
     print(fruit3)
     print(fruit.values())
