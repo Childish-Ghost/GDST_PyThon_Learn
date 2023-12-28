@@ -27,4 +27,10 @@ elif D > H == R:
     print("%d公里选购燃油或混动会更同样省钱" % (km))
 elif D == R < H:
     print("%d公里选购燃油或电动会更同样省钱" % (km))
+elif D == H > R:
+    print("%d公里选购燃油会更同样省钱" % (km))
+elif D < H == R:
+    print("%d公里选购电车会更同样省钱" % (km))
+elif D == R > H:
+    print("%d公里选购混动会更同样省钱" % (km))
 print(D)
