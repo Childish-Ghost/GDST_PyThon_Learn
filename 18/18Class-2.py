@@ -3,7 +3,7 @@ import random as r
 a = r.randrange(1, 100)
 max = 100
 min = 1
-print(a)
+#print(a)  #//临时查看
 while True:
     x = int(input("x:"))
     if 0 < x < 100:
