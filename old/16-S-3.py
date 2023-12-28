@@ -1,3 +1,4 @@
+"""
 lower = int(input("输入区间最小值: "))
 upper = int(input("输入区间最大值: "))
 
@@ -8,3 +9,16 @@ for num in range(lower, upper + 1):
                 break
         else:
             print(num)
+"""
+
+mun=23
+flag = True
+for i in range(2,23):
+    if (mun % i)==0:
+        flag=False
+    break
+if flag==True:
+    print(0)
+else:
+    print(1)
+

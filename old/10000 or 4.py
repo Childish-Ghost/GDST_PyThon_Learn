@@ -1,6 +1,6 @@
 ck = float(input("你的存款数量："))
 cs = ck * 2
-y = 1
+y = 0
 ll = float(input("利率："))
 while ck <= cs:
     ck = ck * ll + ck
