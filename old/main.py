@@ -35,8 +35,9 @@ else:
         else:
             if num == 4:
                 Class_dictionary()
-            else:
-                if num == 5:
-                    chap4_1()
+'''         else:
+               if num == 5:
+                   chap4_1()
                 else:
                     print("无内容")
+'''
