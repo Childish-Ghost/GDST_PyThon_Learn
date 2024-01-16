@@ -1,0 +1,11 @@
+#实训1
+turmover1=[20,80,45,35,32,75,43]
+turmover2=[54,34,23,54,34]
+#合并
+turmover3=turmover1+turmover2
+print(turmover3)
+#检索2月
+print(turmover3[1])
+#修改12月
+turmover3[11]=34+12
+print(turmover3[11])
